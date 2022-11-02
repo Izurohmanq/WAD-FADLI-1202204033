@@ -122,7 +122,7 @@
                 </ul>
               </th>
               <th><?php 
-                  if($priceMobil == 0 || $priceService == 0){
+                  if($priceMobil == 0 && $priceService == 0){
                     echo "NONE";
                   }else{
                     echo "Rp". ($priceMobil*$durasi) + $priceService;
