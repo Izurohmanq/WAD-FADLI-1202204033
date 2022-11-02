@@ -105,10 +105,10 @@
           <tbody>
             <tr>
               <th><?php echo rand(0, 99999999) ?></th>
-              <th><?php echo $nama; ?></th>
+              <th><?php echo $name; ?></th>
               <th><?php echo $tanggal." ".$waktu ; ?></th>
               <th><?php echo $checkout." ".$waktu; ?></th>
-              <th><?php echo $pilihMobils; ?></th>
+              <th><?php echo $pilihMobil; ?></th>
               <th><?php echo $number; ?></th>
               <th>
                 <ul>
@@ -125,7 +125,7 @@
                   if($priceMobil == 0 || $priceService == 0){
                     echo "NONE";
                   }else{
-                    echo "Rp".$priceMobil*$durasi + $priceService;
+                    echo "Rp". ($priceMobil*$durasi) + $priceService;
                   }
                    
                   ?></th>

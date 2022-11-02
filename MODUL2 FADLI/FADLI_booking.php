@@ -69,7 +69,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="durasi" class="form-label">Duration(days)</label>
-                            <input type="number" class="form-control" id="durasi" name=" " required>
+                            <input type="number" class="form-control" id="durasi" name="durasi" required>
                         </div>
                         <div class="mb-3">
                             <label for="pilihMobil" class="form-label">car type</label>
