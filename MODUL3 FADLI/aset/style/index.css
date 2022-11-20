@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+#add {
+  margin-top: 3%;
+  margin-left: 120px;
+}
+
+#add form label {
+  font-weight: bold;
+}
+#home {
+  width: 75%;
+  margin: auto;
+}
+
+#home .word .eadNama img {
+  width: 20%;
+  height: 20%;
+}
+
+#home .gambarMobil img {
+  width: 590px;
+}
+
+#list {
+  width: 80%;
+  height: 100%;
+  margin-left: 120px;
+}
+
+#list .card .card-body p {
+  font-size: 14px;
+}
