@@ -92,8 +92,8 @@ if (isset($_POST["submit"])){
 
     <section id="Detail" class="mb-5">
         <div class="judul-atas" style="margin: 50px 0 0 120px;">
-            <h1 class="fw-bold"><?= $list["nama_mobil"] ?></h1>
-            <p> Detail Mobil <?= $list["nama_mobil"] ?></p>
+            <h1 class="fw-bold">Edit</h1>
+            <p> Edit Mobil <?= $list["nama_mobil"] ?></p>
         </div>
 
         <div class="isian d-flex justify-content-center mt-5">
