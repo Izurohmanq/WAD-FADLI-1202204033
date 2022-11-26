@@ -62,7 +62,7 @@ if(isset($_POST["update"])) {
 
 
 
-$pilihan_warna = [
+$warnaNavbar = [
     "primary" => "Blue",
     "dark" => "Black",
     "info" => "Cyan",
@@ -162,7 +162,7 @@ $pilihan_warna = [
                         <div class="col-7">
                             <select class="form-select text-muted" aria-label="Warna Navbar" id="warnaNavbar"
                                 name="warnaNavbar">
-                                <?php foreach($pilihan_warna as $warna => $value) : ?>
+                                <?php foreach($warnaNavbar as $warna => $value) : ?>
                                 <?php $selected = $warna == $_COOKIE["warnaNavbar"] ? "selected" : "" ?>
                                 <option value="<?= $warna; ?>" <?= $selected; ?>><?= $value; ?></option>
                                 <?php endforeach; ?>

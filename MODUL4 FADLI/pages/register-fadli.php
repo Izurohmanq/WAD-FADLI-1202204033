@@ -46,7 +46,7 @@
 
                             <button type="submit" name="register" class="d-block btn btn-primary mb-3">Register</button>
                         </form>
-                        <p>Anda sudah punya akun? <a href="login-fadli.php">daftar</a></p>
+                        <p>Anda sudah punya akun? <a href="login-fadli.php">login</a></p>
                     </div>
                 </div>
             </div>
