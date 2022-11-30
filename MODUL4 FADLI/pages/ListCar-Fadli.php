@@ -2,7 +2,11 @@
 session_start();
 
 require "../config/connector.php";
-
+if(!isset($_SESSION["login"])){
+    header("location: index.php");
+    exit;
+}
+#melengkapi saja
 $query = "SELECT * FROM showroom_fadli_table";
 $result = mysqli_query($conn, $query);
 function onButtonCar() {
