@@ -21,7 +21,7 @@ class ShowroomMobilController extends Controller
         $showroom = Showroom::where('user_id', auth()->user()->id)->get();
         $showroom_count = Showroom::where('user_id', auth()->user()->id)->get()->count();
         if($showroom_count == 0 ){
-            return redirect('/add');
+            return redirect('/showroom/create');
         }
         $setWarna = Cookie::get('warnaNavbar') ?? 'primary';
         
