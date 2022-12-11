@@ -15,7 +15,7 @@
     <p class="fw-light">List Show Room Fadli-1202204033</p>
     <div class="row">
         @foreach($showroom as $sh)
-        <div class="col-md-4 mb-5">
+        <div class="col-md-4 mb-5 me-5">
             <div class="card" style="width: 350px;">
                 <img src="{{ asset('storage/image/' . $sh['image']) }}" class="card-img-top p-3" alt="...">
                 <div class="card-body">

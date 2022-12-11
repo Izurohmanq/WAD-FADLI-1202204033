@@ -58,7 +58,7 @@
                                     {{ $showroom["status"] === "Lunas" ? "checked" : "disabled"  }}>Lunas</label><br>
                             <label for="Belum Lunas" class="me-4"><input type="radio" id="Belum Lunas" name="status"
                                     value="Belum Lunas"
-                                    {{ $showroom["status"] === "Belum Lunas" ? "checked" : "disabled"  }}>Belum
+                                    {{ $showroom["status"] === "Belum-Lunas" ? "checked" : "disabled"  }}>Belum
                                 Lunas</label><br>
                         </div>
                     </div>

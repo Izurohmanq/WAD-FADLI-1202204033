@@ -40,7 +40,7 @@
             <div class="d-flex flex-row">
                 <input type="radio" id="Lunas" name="status" value="Lunas">
                 <label for="Lunas" class="me-4">Lunas</label><br>
-                <input type="radio" id="Belum" name="status" value="Belum Lunas">
+                <input type="radio" id="Belum" name="status" value="Belum-Lunas">
                 <label for="Belum">Belum Lunas</label><br>
             </div>
         </div>
